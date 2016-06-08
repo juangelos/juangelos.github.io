@@ -114,7 +114,7 @@ header, footer, section {
 
 div.shell {
   display: block;
-  width: 670px;
+  width: 64rem;
   margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ header {
   position: relative;
   z-index: 2;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 64rem;
   top: 38px;
 }
 
@@ -263,7 +263,7 @@ span.banner-fix {
   display: block;
   height: 19px;
   position: absolute;
-  width: 670px;
+  width: 64rem;
   top: 19px;
 }
 
@@ -279,7 +279,7 @@ footer {
   background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;
   padding-top: 104px;
   margin: -94px auto 40px;
-  max-width: 560px;
+  max-width: 60rem;
   text-align: center;
 }
 
@@ -428,7 +428,7 @@ img {
   -moz-box-shadow: 0px 2px 0px #bdb6ad;
   box-shadow: 0px 2px 0px #bdb6ad;
   border: 2px solid #fff6e9;
-  max-width: 502px;
+  max-width: 63rem;
 }
 
 hr {
