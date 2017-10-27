@@ -1,5 +1,10 @@
 ### 27 Oct 2017 
-AnyAny explanation of Ahile needs to include in its trunk the fact of the raising level of anstraction achieved by developers in the languages and tools of programming.
+Any explanation of Ahile needs to include in its trunk the fact of the raising level of anstraction achieved by developers in the languages and tools of programming.
+
+
+
+---
+
 
 
 
