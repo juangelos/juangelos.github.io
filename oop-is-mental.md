@@ -8,7 +8,7 @@ Do you remember having this experience? you simply sat at your computer, wrote a
 
 That’s not to say these illusions are a waste of time. Quite the opposite. Code organization paradigms—whether procedural, object-oriented, or functional—are the mental scaffolding we use to keep from going insane. Each helps us decide where to place logic, how to handle data, and what to compose and reuse. If we tried to manage a system of any considerable size in raw assembly, we’d never get anything done. So yes, these paradigms are all imaginary—and that’s the point.
 
-In the sections below, we’ll explore a wide array of these “imaginations” (i.e., paradigms) and the subtle ways they shape both our design process and our final applications. We’ll also look at the overhead these abstractions can introduce, and why, despite the performance costs, we willingly embrace them.
+In the sections below, we’ll explore a wide array of these “mental models” (i.e., paradigms) and the subtle ways they shape both our design process and our final applications. We’ll also look at the overhead these abstractions can introduce, and why, despite the performance costs, we willingly embrace them.
 
 ---
 
@@ -53,6 +53,7 @@ Below are paradigms that go beyond the traditional “big three.” Each offers 
 Logic programming involves stating facts and rules about your domain, then querying the system to see how those facts and rules unify. The system, rather than the developer, figures out how to reach an answer.
 
 > Here’s a tiny Prolog program about family:
+
 > ```prolog
 parent(john, mary).
 parent(mary, susan).
@@ -60,6 +61,7 @@ parent(mary, susan).
 ancestor(X, Y) :- parent(X, Y).
 ancestor(X, Y) :- parent(X, Z), ancestor(Z, Y).
 ```
+
 > We have two facts: “john is a parent of mary” and “mary is a parent of susan.” We also define a rule for `ancestor(X, Y)`: either X is a parent of Y, or X is a parent of Z and Z is an ancestor of Y. When you query `?- ancestor(john, susan).`, Prolog says “true” because John → Mary → Susan. You didn’t write loops or function calls; you just stated truths and let Prolog do the work.
 
 ### 2.2 Declarative Paradigms
@@ -97,7 +99,7 @@ Whether you’re working in a purely object-oriented style, a functional setting
 
 These however introduce a new, higher layer of abstraction. They also introduce new ways of organizing the code: they are "organizing the code organization" (meta-organizing?): this time you aren't organizing lines of code into classes or functions, you're organizing classes and functions themselves following certain principles.
 
-### Examples
+### Other Examples
 
 #### 3.1 Aspect-Oriented Programming (AOP)
 AOP often extends OOP by weaving in cross-cutting concerns, such as logging or security, at compile or runtime. You still have classes and methods at the core, but aspects intercept or inject behavior in places that otherwise require repetitive boilerplate.
