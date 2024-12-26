@@ -2,7 +2,8 @@ title: juangelos
 description: don't panic
 google_analytics: 
 show_downloads: false
-theme: jekyll-theme-hacker
+#1heme: jekyll-theme-hacker
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 gems:
   - jekyll-mentions
