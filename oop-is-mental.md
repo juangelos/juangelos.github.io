@@ -1,7 +1,5 @@
 # OOP is just a mental model
 
-## Abstract
-
 Let’s face it: every time we write code in a “nice” language or follow a “clean” pattern, we’re really just creating illusions for ourselves. Behind all those lofty classes, pure functions, or carefully engineered microservices, there’s only machine code. In other words, the CPU doesn’t care whether your “rectangle” is a subclass of “shape,” or if you elegantly declared a function with no side effects. From the processor’s perspective, it’s all just instructions, addresses, and data moving around.
 
 Do you remember having this experience? you simply sat at your computer, wrote a program in 1 or 2 files, tested it, and felt the joy of having created something useful that worked "just like that". You probably also started playing with it and started thinking of ways it could be more fun and useful... you had created something that _worked_, and it was marvelous!
