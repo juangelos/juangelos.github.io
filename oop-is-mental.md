@@ -118,3 +118,8 @@ We accept these overheads because they provide mental frameworks for large-scale
 ## Conclusion
 
 All these paradigms—whether procedural, OOP, functional, logic-based, relational, declarative, no-/low-code, graph/pipeline-based, AOP, or ECS—exist to help you cope with complexity. They are not formal mathematical models you must follow; they’re convenience abstractions that let you and your teammates speak a common language about the code. Before you add another layer or create a deeper hierarchy, ask yourself: does this really make sense for the problem at hand? Could you have written those ten classes, sprawling across two microservices, in a single C file with twenty lines of code instead? Questioning the value of every abstraction is a necessary discipline. After all, every additional structure you introduce is something you’ll have to maintain, debug, and justify, so make sure it serves a clear purpose.
+
+
+# Food for thought
+Will AI need all these abstractions?
+
