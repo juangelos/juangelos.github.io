@@ -1,8 +1,7 @@
 ### Dec 26 2024
 
 My conversations with AI series:
-
-[OOP is just mental](oop-is-mental.md)
+- [OOP is just mental](oop-is-mental.md)
 
 ### Apr 1 2023
 The raise in abstraction level that AI will 
