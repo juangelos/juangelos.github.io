@@ -1,3 +1,6 @@
+### Dec 26 2024
+[OOP is just mental](oop-is-mental.md)
+
 ### Apr 1 2023
 The raise in abstraction level that AI will 
 produce will redefine what 'development' means.
