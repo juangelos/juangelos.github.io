@@ -52,7 +52,7 @@ Logic programming involves stating facts and rules about your domain, then query
 
 > Here’s a tiny Prolog program about family:
 
-> ```prolog
+```prolog
 parent(john, mary).
 parent(mary, susan).
 
@@ -123,3 +123,4 @@ All these paradigms—whether procedural, OOP, functional, logic-based, relation
 # Food for thought
 Will AI need all these abstractions?
 
+Appendix I: [Real Programmers wrote in machine code.](http://www.catb.org/jargon/html/story-of-mel.html)
