@@ -17,4 +17,4 @@ languages and tools of programming.
 
 ---
 
-you can find me here @juangelos
+you can find me here [juangelos](https://about.me/juangelos)
